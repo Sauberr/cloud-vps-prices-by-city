@@ -8,6 +8,11 @@ authors:
 version: "2026.11.25"
 date-released: "2026-11-25"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.24541257"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24541257"
+    description: "All versions (resolves to the latest)"
 repository-code: "https://github.com/Sauberr/cloud-vps-prices-by-city"
 url: "https://neckrez.tech/data/cloud-vps-prices"
 abstract: >-

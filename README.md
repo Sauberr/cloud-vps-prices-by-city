@@ -1,6 +1,7 @@
 # Cloud VPS prices by city
 
 [![tests](https://github.com/Sauberr/cloud-vps-prices-by-city/actions/workflows/test.yml/badge.svg)](https://github.com/Sauberr/cloud-vps-prices-by-city/actions/workflows/test.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24541257.svg)](https://doi.org/10.5281/zenodo.24541257)
 [![License: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Public list prices of cloud VPS plans on **Vultr, DigitalOcean, Linode (Akamai) and Hetzner**, one row per plan and city, collected from each provider's own API. Plus a summary that puts the same shared-CPU size side by side on every provider.
@@ -73,13 +74,13 @@ Without a token, that provider is skipped and the skip is recorded in `meta.json
 - These are list prices. Discounts, credits, reserved pricing and taxes are not included.
 - "Same size" means the same vCPU count and memory. Disk, traffic and CPU generation still differ; the columns say how.
 - A plan listed in a city can still be out of stock there at a given moment.
-- Prices change. The data will be refreshed, with each version tagged and archived.
+- Prices change. The data will be refreshed, with each version tagged and archived on Zenodo; the DOI above always points to the latest version.
 
 ## Cite
 
 Data: [CC BY 4.0](LICENSE). Use it for anything, including commercially, as long as you credit the source:
 
-> Neckrez (2026). *Cloud VPS prices by city: Vultr, DigitalOcean, Linode and Hetzner*. https://github.com/Sauberr/cloud-vps-prices-by-city
+> Neckrez (2026). *Cloud VPS prices by city: Vultr, DigitalOcean, Linode and Hetzner* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24541257
 
 GitHub's "Cite this repository" button gives the same in BibTeX and APA. The code (`collect.py`, tests) is MIT, see [LICENSE-CODE](LICENSE-CODE).
 
