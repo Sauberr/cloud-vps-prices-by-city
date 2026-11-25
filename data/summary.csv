@@ -1,0 +1,23 @@
+vcpu,ram_gb,provider,plan,disk_gb,transfer_tb,cities,min_month_usd,median_month_usd,max_month_usd,cheapest_city
+1,1,digitalocean,s-1vcpu-1gb,25,1.0,8,6.0,6.0,6.0,same everywhere
+1,1,hetzner,cpx02,20,20.0,4,6.59,8.09,9.59,Helsinki
+1,1,linode,g6-nanode-1,25,1.0,33,5.0,5.0,7.0,31 cities
+1,1,vultr,vc2-1c-1gb,25,1.0,30,5.0,5.0,5.0,same everywhere
+1,2,digitalocean,s-1vcpu-2gb,50,2.0,8,12.0,12.0,12.0,same everywhere
+1,2,hetzner,cpx12,40,20.0,4,11.59,14.09,18.59,Helsinki
+1,2,linode,g6-standard-1,50,2.0,33,12.0,12.0,16.8,31 cities
+1,2,vultr,vc2-1c-2gb,55,2.0,31,10.0,10.0,10.0,same everywhere
+2,2,digitalocean,s-2vcpu-2gb,60,3.0,8,18.0,18.0,18.0,same everywhere
+2,2,hetzner,cpx11,40,20.0,6,6.59,9.34,21.09,3 cities
+2,2,vultr,vc2-2c-2gb,65,3.0,31,15.0,15.0,15.0,same everywhere
+2,4,digitalocean,s-2vcpu-4gb,80,4.0,8,24.0,24.0,24.0,same everywhere
+2,4,hetzner,cx23,40,20.0,3,7.09,7.09,7.09,same everywhere
+2,4,linode,g6-standard-2,80,4.0,33,24.0,24.0,33.6,31 cities
+2,4,vultr,vc2-2c-4gb,80,3.0,31,20.0,20.0,20.0,same everywhere
+4,8,digitalocean,s-4vcpu-8gb,160,5.0,8,48.0,48.0,48.0,same everywhere
+4,8,hetzner,cx33,80,20.0,3,10.59,10.59,10.59,same everywhere
+4,8,linode,g6-standard-4,160,5.0,33,48.0,48.0,67.2,31 cities
+4,8,vultr,vc2-4c-8gb,160,4.0,31,40.0,40.0,40.0,same everywhere
+8,16,hetzner,cx43,160,20.0,3,19.09,19.09,19.09,same everywhere
+8,16,vultr,vhp-8c-16gb-amd,350,8.0,29,96.0,96.0,96.0,same everywhere
+16,32,hetzner,cx53,320,20.0,3,35.59,35.59,35.59,same everywhere

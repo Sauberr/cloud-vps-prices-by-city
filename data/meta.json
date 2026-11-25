@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-11-25T18:42:32Z",
+  "rows": 4015,
+  "providers": {
+    "digitalocean": 285,
+    "hetzner": 118,
+    "linode": 1199,
+    "vultr": 2413
+  },
+  "cities": 86,
+  "skipped": [],
+  "notes": [
+    "Prices are the providers' public list prices in US dollars, without VAT or sales tax.",
+    "Hetzner bills a primary IPv4 separately: ipv4_extra_month_usd holds it, and price_month_with_ipv4_usd adds it so every provider's price includes one public IPv4.",
+    "Vultr and DigitalOcean charge the same everywhere a plan is offered; Linode and Hetzner price some locations higher.",
+    "GPU, bare metal, free-tier and deprecated plans are left out."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Cloud VPS prices by city: Vultr, DigitalOcean, Linode and Hetzner",
+  "upload_type": "dataset",
+  "description": "<p>Public list prices of cloud VPS plans on Vultr, DigitalOcean, Linode (Akamai) and Hetzner, one row per plan and city, collected from each provider's own API by the script in the repository. A summary compares the same shared-CPU x86 sizes (1 vCPU / 1 GB up to 16 vCPU / 32 GB) across providers: minimum, median and maximum monthly price over the cities where each provider sells the plan.</p><p>Prices are in US dollars without VAT or sales tax. Hetzner bills a primary IPv4 separately; it is added in price_month_with_ipv4_usd so every price includes one public IPv4. GPU, bare metal, free-tier and deprecated plans are left out. Methodology and column descriptions: README.md.</p>",
+  "creators": [{"name": "Neckrez"}],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["cloud computing", "VPS", "pricing", "Vultr", "DigitalOcean", "Linode", "Akamai", "Hetzner", "price comparison"],
+  "related_identifiers": [
+    {"identifier": "https://neckrez.tech/data/cloud-vps-prices", "relation": "isDocumentedBy", "resource_type": "other"},
+    {"identifier": "https://github.com/Sauberr/cloud-vps-prices-by-city", "relation": "isSupplementTo", "resource_type": "software"}
+  ]
+}
